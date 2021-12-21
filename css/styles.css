@@ -1,20 +1,19 @@
-@import url('https://fonts.googleapis.com/css?famile=Dancing+Script:400,700');
-
+@import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
 body
 {
   margin: 0;
   padding: 0;
-  height: 100vh;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  background: #c50e0e;
-  font-family: 'Dancing Script', cursive;
+  text-align: left;
+  font-family: 'Licorice', cursive;
 }
 
-.box
+
+h1, h2
+{
+  font-family: 'Licorice', cursive;
+  text-align: center;
+}
+/*.box
 {
   position: relative;
   width: 500px;
@@ -73,3 +72,4 @@ body
 .snow:nth-child(1){
   animation: animate 10s linear infinite;
 }
+/*
