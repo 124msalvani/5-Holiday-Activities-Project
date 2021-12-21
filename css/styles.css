@@ -13,6 +13,16 @@ h1, h2
   font-family: 'Licorice', cursive;
   text-align: center;
 }
+
+
+.strand{
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  position: absolute;
+  
+}
+
 /*.box
 {
   position: relative;
